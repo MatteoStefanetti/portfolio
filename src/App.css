@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+.hf-custom-bg {
+  background-color: #506C5B;
+}
+
+.content-bg {
+  background-color: #F9F5EF;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
