@@ -13,6 +13,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.hf-custom-bg {
+  background-color: #506C5B;
+}
+
+.content-bg {
+  background-color: #F9F5EF;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

@@ -1,11 +1,12 @@
 import 'react';
+import {Container} from "react-bootstrap";
 
 const Footer = () => {
     return (
         <footer className="hf-custom-bg text-center p-3">
-            <div className="container">
+            <Container>
                 <p>Il mio Footer</p>
-            </div>
+            </Container>
         </footer>
     );
 };
