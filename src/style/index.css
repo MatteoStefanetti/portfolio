@@ -30,7 +30,6 @@
   background-color: transparent;
   width: 300px;
   height: 300px;
-  border: 1px solid #f1f1f1;
   perspective: 1000px;
 }
 
@@ -59,12 +58,19 @@
 .flip-card-front {
   background-color: transparent;
   color: black;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .flip-card-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
   color: white;
+  border-radius: 50%;
   transform: rotateY(180deg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 a {

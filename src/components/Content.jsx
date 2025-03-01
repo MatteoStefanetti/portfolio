@@ -1,5 +1,5 @@
 import 'react';
-import {Card, Col, Container, Image, Row, Stack} from "react-bootstrap";
+import {Col, Container, Image, Row, Stack} from "react-bootstrap";
 import WhoAmI from "./contents/WhoAmI.jsx";
 
 const logos = ['https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg',
