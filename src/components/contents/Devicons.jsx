@@ -13,11 +13,11 @@ const logos = ['https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgr
 const Devicons = () => {
     return(
         <Container>
-            <Row>
+            <Row className="d-flex justify-content-between">
                 {Array.from({ length: logos.length }).map((_, i) => (
-                    <Col key={i}>
-                        <Container fluid>
-                            <Image src={logos[i]} />
+                    <Col sm={3} lg={1} key={i} className="flex-fill">
+                        <Container>
+                            <Image className="m-3 mw-100" width="100px" src={logos[i]} />
                         </Container>
                     </Col>
                 ))}
