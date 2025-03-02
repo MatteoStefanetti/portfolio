@@ -26,6 +26,10 @@
   border-color: #506C5B;
 }
 
+.card-green-border {
+  background-color: #506C5B;
+}
+
 .flip-card {
   background-color: transparent;
   width: 300px;
