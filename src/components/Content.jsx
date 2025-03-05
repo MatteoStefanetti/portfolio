@@ -2,6 +2,7 @@ import 'react';
 import {Container, Stack} from "react-bootstrap";
 import WhoAmI from "./contents/WhoAmI.jsx";
 import Devicons from "./contents/Devicons.jsx";
+import Projects from "./contents/Projects.jsx";
 
 
 
@@ -11,9 +12,7 @@ const Content = () => {
                 <Stack gap={4}>
                     <WhoAmI />
                     <Devicons />
-                    <Container>
-                        <p className="h1">Projects</p>
-                    </Container>
+                    <Projects />
                 </Stack>
             </Container>
     );
