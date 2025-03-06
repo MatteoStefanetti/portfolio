@@ -1,17 +1,15 @@
-import './App.css'
+import './style/App.css'
 import "react";
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
-import Content from "./Content.jsx";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+import Content from "./components/Content.jsx";
 
 function App() {
     return (
     <>
-        <div className="d-flex flex-column min-vh-100 p-0 m-0">
+        <div className="d-flex flex-column justify-content-around min-vh-100 p-0 m-0">
             <Header />
-            <main className="flex-fill">
-                <Content />
-            </main>
+            <Content />
             <Footer />
         </div>
     </>
