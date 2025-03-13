@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="hf-custom-bg">
             <p className={"h5"}>Contact me</p>
-            <Container fluid>
+            <Container fluid id="contact">
                 <ul className="nav justify-content-center list-unstyled d-flex my-3">
                     <li className="ms-3">
                         <a href="mailto:matteo.stefanetti99+work@gmail.com" className="text-body-secondary" target="_blank">

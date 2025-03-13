@@ -10,7 +10,7 @@ const Projects = () => {
     return (
         <Container>
             <p className="h1">Projects</p>
-            <Container>
+            <Container id="projects">
                 <Row className="row-cols-2">
                     {Array.from({length: projectsLink.length}).map((_, i) => (
                         <Col key={i}>

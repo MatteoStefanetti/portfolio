@@ -12,7 +12,7 @@ const logos = ['https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgr
 
 const Devicons = () => {
     return(
-        <Container>
+        <Container id="devicons">
             <Row className="d-flex justify-content-between my-3">
                 {Array.from({ length: logos.length }).map((_, i) => (
                     <Col xs={6} sm={3} xl={1} key={i} className="d-flex justify-content-center my-2">
