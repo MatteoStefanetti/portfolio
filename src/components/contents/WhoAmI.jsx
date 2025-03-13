@@ -1,11 +1,17 @@
-import 'react'
+import {useState} from "react";
 import {Container, Image} from "react-bootstrap";
 
-const WhoAmI = () => {
+function WhoAmI() {
+    const [isFlipped, setIsFlipped] = useState(false);
+
+    const handleFlip = () => {
+        setIsFlipped((prev) => !prev);
+    };
+
     return (
         <Container fluid className="d-flex justify-content-center">
-            <div className="flip-card">
-                <div className="flip-card-inner">
+            <div className="flip-card" onClick={handleFlip}>
+                <div className={`flip-card-inner ${isFlipped ? "flipped" : ""}`}>
                     <div className="flip-card-front">
                         <div className="card rounded-circle p-1 card-green-border">
                             <Image src="images/Profile_matteo3.jpeg" className="card-img rounded-circle" />
