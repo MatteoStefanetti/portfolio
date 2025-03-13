@@ -16,7 +16,7 @@ const Devicons = () => {
             <Row className="d-flex justify-content-between my-3">
                 {Array.from({ length: logos.length }).map((_, i) => (
                     <Col xs={6} sm={3} xl={1} key={i} className="d-flex justify-content-center my-2">
-                        <Container fluid className="border border-1 rounded-4 p-1 border-success d-flex justify-content-center align-items-center" style={{width: "100px"}}>
+                        <Container fluid className="p-1 d-flex justify-content-center align-items-center" style={{width: "100px"}}>
                             <Image className="rounded-4" width="100px" src={logos[i]} />
                         </Container>
                     </Col>
