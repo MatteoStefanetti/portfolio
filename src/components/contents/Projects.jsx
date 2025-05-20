@@ -11,9 +11,9 @@ const Projects = () => {
         <Container>
             <p className="h1">Projects</p>
             <Container id="projects">
-                <Row className="row-cols-2">
+                <Row>
                     {Array.from({length: projectsLink.length}).map((_, i) => (
-                        <Col key={i}>
+                        <Col key={i} className="col-12 col-md-6">
                             <Card className="my-3">
                                 <Card.Body>
                                     <Card.Title className="text-center">
