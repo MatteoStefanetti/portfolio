@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <Navbar sticky={"top"} expand={"lg"} className="hf-custom-bg">
             <Container fluid={true}>
-                <Navbar.Brand href="/">Matteo Stefanetti</Navbar.Brand>
+                <Navbar.Brand href="/" className="text-primary-emphasis">Matteo Stefanetti</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
