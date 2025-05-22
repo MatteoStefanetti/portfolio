@@ -6,6 +6,9 @@ const projectsLink = ['https://github.com/MatteoStefanetti/JavaSpringBootServerT
     'https://github.com/MatteoStefanetti/MainExpressServer',
     'https://github.com/Marco-Skiavone/SecondExpressServerTweb23'];
 
+const imagePath = 'images/';
+const projectsImg = ['Project1.jpg', 'Project2.jpg', 'Project3.jpg'];
+
 const Projects = () => {
     return (
         <Container>
@@ -14,8 +17,9 @@ const Projects = () => {
                 <Row>
                     {Array.from({length: projectsLink.length}).map((_, i) => (
                         <Col key={i} className="col-12 col-md-6">
-                            <Card className="my-3" data-aos="flip-right">
+                            <Card className="my-3 p-0" data-aos="flip-right">
                                 <Card.Body>
+                                    <Card.Img src={imagePath + projectsImg[i]}></Card.Img>
                                     <Card.Title className="text-center">
                                         {projectsLink[i].slice(projectsLink[i].indexOf(marker) + marker.length)}
                                     </Card.Title>
