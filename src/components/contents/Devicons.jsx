@@ -13,11 +13,11 @@ const logos = ['https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgr
 const Devicons = () => {
     return(
         <Container id="devicons">
-            <Row className="d-flex justify-content-between my-3">
+            <Row className="d-flex justify-content-between my-3"  data-aos="fade-right">
                 {Array.from({ length: logos.length }).map((_, i) => (
                     <Col xs={6} sm={3} xl={1} key={i} className="d-flex justify-content-center my-2">
                         <Container fluid className="p-1 d-flex justify-content-center align-items-center" style={{width: "100px"}}>
-                            <Image className="rounded-4" width="100px" src={logos[i]} />
+                            <Image className="rounded-4" width="100px" src={logos[i]}/>
                         </Container>
                     </Col>
                 ))}
