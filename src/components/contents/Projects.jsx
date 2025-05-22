@@ -14,7 +14,7 @@ const Projects = () => {
                 <Row>
                     {Array.from({length: projectsLink.length}).map((_, i) => (
                         <Col key={i} className="col-12 col-md-6">
-                            <Card className="my-3">
+                            <Card className="my-3" data-aos="flip-right">
                                 <Card.Body>
                                     <Card.Title className="text-center">
                                         {projectsLink[i].slice(projectsLink[i].indexOf(marker) + marker.length)}

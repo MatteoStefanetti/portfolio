@@ -9,7 +9,7 @@ function WhoAmI() {
     };
 
     return (
-        <Container fluid className="d-flex justify-content-center" id="whoAmI">
+        <Container fluid className="d-flex justify-content-center" id="whoAmI"  data-aos="fade-left">
             <div className="flip-card" onClick={handleFlip}>
                 <div className={`flip-card-inner ${isFlipped ? "flipped" : ""}`}>
                     <div className="flip-card-front">
